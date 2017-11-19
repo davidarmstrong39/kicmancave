@@ -1,0 +1,167 @@
+body{
+  font: 15px/1.5 Montserrat,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+a.links{
+	letter-spacing:2px;
+	color:white;
+	text-decoration:none;
+	margin-left:12px;
+	margin-right:10px;
+}
+
+a:hover {
+    color: grey;
+}
+
+#navbarout{
+  position: fixed;
+	width: 100%;
+  height:38px;
+	background-color: black;
+  opacity: .8;
+	top:0;
+	left:0;
+	right:0;
+  padding: 5px;
+	z-index:9999;
+}
+#navbarin{
+	width:75vw;
+  min-width: 500px;
+	height:38px;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 0;
+  padding: 0;
+  font-weight:bold;
+	color: white;
+}
+
+ul.navlinks{
+  margin-top: 10px;
+  float:right;
+  font-size: 12;
+  list-style: none;
+}
+ul.navlinks li{
+  display: inline;
+}
+
+ul.notices {
+  list-style-type: none;
+}
+
+
+#sect1{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  background-image: url("images/sect1.jpg");
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  letter-spacing: 20px;
+  text-align: center;
+  font-size:70px;
+  font-weight: bold;
+}
+
+.subtitle{
+  color: white;
+  letter-spacing: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.heading{
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.bannertext{
+  color: white;
+  letter-spacing: 8px;
+  text-align: center;
+  font-size: 5vw;
+  font-weight: lighter;
+  background-color: black;
+  opacity: .7;
+  width: 70vw;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  vertical-align: middle;
+}
+
+#sect2{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  background-position: center;
+
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#sect3{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  background-image: url("images/sect3.jpg");
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  letter-spacing: 8px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+#sect4{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  background-position: center;
+
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#sect5{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  overflow: hidden;
+  background-image: url("images/sect5.jpg");
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
